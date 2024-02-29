@@ -14,8 +14,20 @@ body {
   text-align: center;
 }
 
+.html-body {
+  justify-content: center;
+  align-items: center; 
+  box-sizing: border-box;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .html-form-body {
-    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  box-sizing: border-box;
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,22 +61,25 @@ body {
   font-family: 'breakingBad';
 }
 
-form {
+.container {
+  width: 100%;
+  padding: 15px;
+  display: block;
+}
 
+form {
+  text-align: center;
   font-size: 14px;
   border:2px solid white;
 }
 
-.container {
-  width: 100%;
-  padding: 15px;
-}
-
 .input-container {
+  background-color: #F1F3CC;
   margin-bottom: 15px;
 }
 
 h1 {
+  color: white;
   font-size: 24px;
 }
 
@@ -89,7 +104,6 @@ input {
 .header {
   font-family: Helvetica;
   text-align: center;
-  padding: 20px;
 }
 
 #h1-tabla {
@@ -188,9 +202,9 @@ td {
   border: 1px solid black;
 }
 
-/* .special-item img {
+.special-item img {
   width: 100%;
-} */
+}
 
 .item-extras {
   text-align: center;
