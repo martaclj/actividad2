@@ -50,6 +50,7 @@ body {
 }
 
 form {
+
   font-size: 14px;
   border:2px solid white;
 }
@@ -137,21 +138,14 @@ input {
 
 .main-table {
   background-color: #2C2C23;
-  /* border-collapse: collapse; */
 }
 
 td {
+  border: 4px solid #2C2C23;
   position: relative;
-  width: 60px;
-  height: 30px;
+  width: 100px;
+  height: 100px;
 }
-
-/* .item {
-  border: 1px solid black;
-  position: relative;
-  width: 60px;
-  height: 30px;
-} */
 
 .medium-green {
   background-color: #858A53;
@@ -192,9 +186,6 @@ td {
 .special-item {
   background-color: #BFD331;
   border: 1px solid black;
-  /* position: relative;
-  width: 60px;
-  height: 60px; */
 }
 
 /* .special-item img {
@@ -203,15 +194,15 @@ td {
 
 .item-extras {
   text-align: center;
+  align-items: center;
+  color: #2C2C23;
 }
 
 .symbol {
-  font-size: 24px;
+  display: block;
+  text-align: center;
+  font-size: 44px;
   font-weight: bold;
-}
-
-.special-symbol {
-  width: fit-content;
 }
 
 .name {
