@@ -9,7 +9,7 @@
 </head>
 <body class="html-form-body">
       <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
-      <h1>Breaking Bad - Que comience el juego!</h1>
+      <h1>Breaking Bad<br>- Que comience el juego!</h1>
         <div class="container">
           <div class="input-container">
             <br>Nombre: <input type="text" name="" id="" required>
@@ -31,8 +31,8 @@
           </div>
           <div class="input-container">
             <br>Sexo:
-            <br><input class="gender" type="radio" name="" id="" value="hombre">Hombre
-            <br><input class="gender" type="radio" name="" id="" value="mujer">Mujer
+            <input class="gender" type="radio" name="" id="" value="hombre">Hombre
+            <input class="gender" type="radio" name="" id="" value="mujer">Mujer
           </div>
           <div class="input-container">
             <br>Selecciona un personaje:
@@ -47,8 +47,14 @@
           </div>
           <div class="input-container">
             <br>Comentarios adicionales:
+            <br>
             <br><textarea name="comentarios" id="" cols="30" rows="10" placeholder="Comenta aquí"></textarea>
-            <br><input class="button" type="submit" value="Registro">
+            <!-- Área de botones -->
+            <div class="button-area">
+              <br><input class="button" type="submit" value="Registro">
+              <br><input class="button" type="reset" value="Eliminar">
+              <br><input id="adjunto" class="button" type="file" name="archivoAdjunto" accept=".pdf, .png, .jpg, .docx" multiple>
+            </div>
           </div>
         </div> 
       </form>

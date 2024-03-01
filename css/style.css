@@ -27,7 +27,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; 
-  box-sizing: border-box;
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,12 +69,16 @@ body {
 form {
   text-align: center;
   font-size: 14px;
-  border:2px solid white;
+  border:4px solid white;
 }
 
 .input-container {
-  background-color: #F1F3CC;
-  margin-bottom: 15px;
+  background-color: #89BBD0;
+  width: 500px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
 }
 
 h1 {
@@ -85,7 +88,9 @@ h1 {
 
 input {
   margin: 2px;
-  width: 200px;
+  padding: 5px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 .gender {
@@ -93,12 +98,20 @@ input {
   width: auto;
 }
 
+/* .button-area {
+} */
+
 .button {
-  width: 200px;
-  font-size: 24px;
+  width: 180px;
+  font-size: 20px;
   color: white;
-  background-color: #666D28;
-  padding: 15px 20px;
+  background-color: grey;
+  /* padding: 15px 20px; */
+  margin-bottom: 10px;
+}
+
+#adjunto {
+  width: 400px;
 }
 
 .header {
