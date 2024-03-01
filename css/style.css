@@ -86,6 +86,10 @@ h1 {
   font-size: 24px;
 }
 
+a {
+  text-decoration: none;
+}
+
 input {
   margin: 2px;
   padding: 5px;
